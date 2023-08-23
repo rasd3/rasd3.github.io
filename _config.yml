@@ -1,6 +1,6 @@
 source:      
 destination: /_site
-includes:    /_includes
+includes:   /_includes
 url: "https://rasd3.github.io/"
 
 collections:
