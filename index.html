@@ -5,41 +5,12 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>
-  My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
-  My recent work has focused on reducing political polarization online 
-  [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">ICWSM'22a</a>,
-  <a href="assets/publications/2022_flipfeed/paper.pdf" target="_blank">ICWSM'22b</a>,
-  <a href="assets/publications/2021_balanced_inf_max/paper.pdf" target="_blank">WSDM'21</a>,
-  <a href="assets/publications/2018_social_mirror/paper.pdf" target="_blank">WWW'18</a>],
-  improving the health of online conversations 
-  [<a href="assets/publications/2021_dtox/paper.pdf" target="_blank">WWW'21</a>, 
-  <a href="assets/publications/2021_social_catalysts/paper.pdf" target="_blank">CSCW'21</a>], 
-  and causal inference in social systems 
-  [<a href="assets/publications/2017_detecting_network_effects/paper.pdf" target="_blank">KDD'17</a>
-  <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>]. 
-  My research often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
-  </p>
+I am a Ph.D. candidate in the Signal Processing and Artificial Intelligence Lab, advised by Junwon Choi, at Hanyang University. I graduated with a Bachelor's degree in Electrical Engineering from Hanyang University.<br><br>
 
-  <p>
-  <b>I'm joining the University of Washington Information School as an Assistant Professor, starting September 2023.</b>
-  I am currently a Postdoc at Stanford University, mentored by <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>.
-  I received my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
-  Before coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
-  I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
-  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
+My research interests lie in 3D object detection in autonomous driving environments, and I have conducted studies across sensor-fusion, temporal, and domain adaptation. Additionally, I completed an internship with the autonomous driving development team at Kakao Mobility.
   </p> 
 </div>
 
-<div class="docs-section" id="prospective-students">  
-  <h4>Prospective Students</h4>
-  <p>
-  <b>I'm recruiting PhD students to start Fall 2023 at the University of Washington! </b>
-  I'm especially looking for students with a background and/or interest in <i>social network analysis, machine learning, causal inference, or natural language processing</i>, and are passionate about using computational methods to study how online social platforms can be reimagined to <i>enable better conversations, bridge political divides, and reduce the spread of misinformation</i>. 
-  If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
-  If you have any questions, feel free to reach out by email!
-  </p> 
-</div>
 
 
 <!-- ========== PUBLICATIONS ========== -->
@@ -49,18 +20,20 @@ title: Home
   <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
   <sup>‡</sup> indicates equal contribution.
   </p>
-
+<!--
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
 
   <div class="tab-content">
+-->
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.details }}</p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -91,8 +64,7 @@ title: Home
           </div>
         </div>
       {% endfor %}
-    </div>
-
+    <!-- </div> 
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
@@ -127,7 +99,7 @@ title: Home
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div>-->
   </div>
 </div>
 
