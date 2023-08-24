@@ -4,37 +4,39 @@ papers:
     details: "<span style='color:red'><b>Ranked 5th place on nuScenes 3D Detection leaderboard of December 2022 among single model without TTA</b></span>"
     authors: "<b>Yecheol Kim</b>, Konyul Park, Minwook Kim, Dongsuk Kum, and Jun Won Choi"
     venue: "Arxiv'2022"
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2022_arxiv_3d-dualfusion/paper.pdf"
+    code: "https://github.com/rasd3/3D-Dual-Fusion"
     selected: y
 
   - title: "Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of
 Camera Image and LiDAR Point Clouds"
     authors: "Junho Koh<sup>‡</sup>, Jaekyum Kim<sup>‡</sup>, Jin Hyeok Yoo, <b>Yecheol Kim</b>, Dongsuk Kum, Jun Won Choi"
     venue: "AAAI'2022: Association for the Advancement of Artificial Intelligence, 2022."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2022_aaai_temporal_fusion/paper.pdf"
     selected: y
 
   - title: "3D-CVF: Generating joint camera and LiDAR features using cross-view spatial feature mapping for 3D object detection"
     details: "<span style='color:red'><b>Ranked 4th place on KITTI 3D car detection leaderboard of March 2020</b></span>"
     authors: "Jin Hyeok Yoo<sup>‡</sup>, <b>Yecheol Kim<sup>‡</sup></b>, Jisong Kim, Jun Won Choi"
     venue: "ECCV'2020:  European Conference on Computer Vision, 2020."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2020_eccv_3dcvf/paper.pdf"
+    code: "https://github.com/rasd3/3D-CVF"
     selected: y
 
   - title: "Enhanced object detection in bird’s eye view using 3D global context inferred from Lidar point data"
     authors: "<b>Yecheol Kim</b>, Jaekyum Kim, Junho Koh, Jun Won Choi"
     venue: "IV'19:  IEEE Intelligent Vehicles Symposium, 2019."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2019_iv_enhanced_lidar/paper.pdf"
     selected: y
 
   - title: "Robust Deep Multi-modal Learning Based on Gated Information Fusion Network"
     authors: "Jaekyum Kim, Junho Koh, <b>Yecheol Kim</b>, Jaehyung Choi, Youngbae Hwang, Jun Won Choi"
     venue: "ACCV'18: Asian Conference on Computer Vision, 2018."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2018_accv_robust_fusion/paper.pdf"
     selected: y
 
   - title: "Robust camera lidar sensor fusion via deep gated fusion network"
     authors: "Jaekyum Kim, Jaehyung Choi, <b>Yecheol Kim</b>, Junho Koh, Jun Won Choi"
     venue: "IV'18: IEEE Intelligent Vehicles Symposium, 2018."
-    paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+    paper_pdf: "/assets/publications/2018_iv_robust_fusion/paper.pdf"
     selected: y
