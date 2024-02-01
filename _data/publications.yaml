@@ -1,5 +1,17 @@
 papers:
 
+  - title: "Fine-Grained Pillar Feature Encoding via Spatio-Temporal Virtual Grid for 3D Object Detection"
+    authors: "Konyul Park<sup>‡</sup>, <b>Yecheol Kim<sup>‡</sup></b>, Junho Koh, Byungwoo Park and Jun Won Choi"
+    venue: "ICRA'2024: IEEE International Conference on Robotics and Automation, 2024."
+    selected: y
+
+
+  - title: "Semi-Supervised Domain Adaptation Using Target-Oriented Domain Augmentation for 3D Object Detection"
+    authors: "<b>Yecheol Kim<sup>‡</sup></b>, Junho Lee<sup>‡</sup>, Changsoo Park, Hyoungwon Kim, Inho Lim, Christopher Chang, and Jun Won Choi"
+    venue: "Under Review"
+    selected: y
+
+
   - title: "3D Dual-Fusion: Dual-Domain Dual-Query Camera-LiDAR Fusion for 3D Object Detection"
     details: "<span style='color:red'><b>Ranked 5th place on nuScenes 3D Detection leaderboard of December 2022 among single model without TTA</b></span>"
     authors: "<b>Yecheol Kim</b>, Konyul Park, Minwook Kim, Dongsuk Kum, and Jun Won Choi"
