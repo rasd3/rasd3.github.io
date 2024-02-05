@@ -3,6 +3,7 @@ papers:
   - title: "Fine-Grained Pillar Feature Encoding via Spatio-Temporal Virtual Grid for 3D Object Detection"
     authors: "Konyul Park<sup>‡</sup>, <b>Yecheol Kim<sup>‡</sup></b>, Junho Koh, Byungwoo Park and Jun Won Choi"
     venue: "ICRA'2024: IEEE International Conference on Robotics and Automation, 2024."
+    code: "https://github.com/konyul/FG-PFE"
     selected: y
 
 
