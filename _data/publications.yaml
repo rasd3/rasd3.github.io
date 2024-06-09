@@ -2,7 +2,7 @@ papers:
 
   - title: "Semi-Supervised Domain Adaptation Using Target-Oriented Domain Augmentation for 3D Object Detection"
     authors: "<b>Yecheol Kim<sup>‡</sup></b>, Junho Lee<sup>‡</sup>, Changsoo Park, Hyoungwon Kim, Inho Lim, Christopher Chang, and Jun Won Choi"
-    venue: "IEEE Transactions on Intelligent Vehicles, 2024, (Impact Factor: 8.2)"
+    venue: "T-IV'2024: IEEE Transactions on Intelligent Vehicles, 2024, (Impact Factor: 8.2)"
     selected: y
 
   - title: "Fine-Grained Pillar Feature Encoding via Spatio-Temporal Virtual Grid for 3D Object Detection"
