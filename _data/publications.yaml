@@ -3,11 +3,14 @@ papers:
   - title: "Semi-Supervised Domain Adaptation Using Target-Oriented Domain Augmentation for 3D Object Detection"
     authors: "<b>Yecheol Kim<sup>‡</sup></b>, Junho Lee<sup>‡</sup>, Changsoo Park, Hyoungwon Kim, Inho Lim, Christopher Chang, and Jun Won Choi"
     venue: "T-IV'2024: IEEE Transactions on Intelligent Vehicles, 2024, (Impact Factor: 8.2)"
+    paper_pdf: "/assets/publications/2024_tiv_toda/paper.pdf"
+    code: "https://github.com/rasd3/TODA"
     selected: y
 
   - title: "Fine-Grained Pillar Feature Encoding via Spatio-Temporal Virtual Grid for 3D Object Detection"
     authors: "Konyul Park<sup>‡</sup>, <b>Yecheol Kim<sup>‡</sup></b>, Junho Koh, Byungwoo Park and Jun Won Choi"
     venue: "ICRA'2024: IEEE International Conference on Robotics and Automation, 2024."
+    paper_pdf: "/assets/publications/2024_icra_fgpfe/paper.pdf"
     code: "https://github.com/konyul/FG-PFE"
     selected: y
 
